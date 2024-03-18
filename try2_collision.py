@@ -6,7 +6,19 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Hello World!')
 
+# define the 'player' object
+
+
 # define a list of bouncy objects
+
+
+# the plan:
+# the player will move with the mouse
+# enemies will change color when they collide with the player
+#    player.check_collision(enemies)
+# enemies will disappear when clicked
+#    loop thorough all enemies
+#        if clicked, remove from list
 
 
 

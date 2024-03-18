@@ -7,6 +7,9 @@ screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Hello World!')
 
 # define a few bouncy objects
+# s1 will move where the mouse moves
+# s2 will move where the mouse is clicked
+# s3 will move with arrow key press
 
 
 
