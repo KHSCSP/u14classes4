@@ -2,6 +2,16 @@ import pygame, sys, random
 from pygame.locals import QUIT
 from bouncy_class import Bouncy
 
+'''
+    the plan:
+    the player will move with the mouse
+    enemies will change color when they collide with the player
+        ex: player.check_collision(enemies)
+    enemies will disappear when clicked
+        ex: loop thorough all enemies
+            if clicked, remove from list
+'''
+
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Hello World!')
@@ -11,14 +21,6 @@ pygame.display.set_caption('Hello World!')
 
 # define a list of bouncy objects
 
-
-# the plan:
-# the player will move with the mouse
-# enemies will change color when they collide with the player
-#    player.check_collision(enemies)
-# enemies will disappear when clicked
-#    loop thorough all enemies
-#        if clicked, remove from list
 
 
 
