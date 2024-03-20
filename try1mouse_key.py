@@ -20,7 +20,7 @@ while True:
             sys.exit()
         # a bit slower keypress (not continuous)
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
+            if event.key == pygame.K_RIGHT:
                 pass
     # -------- end event loop
     screen.fill((255,255,255))
