@@ -9,7 +9,7 @@ pygame.display.set_caption('Hello World!')
 # define a few bouncy objects
 # s1 will move where the mouse moves
 # s2 will move where the mouse is clicked
-# s3 will move with arrow key press
+# s3 and s4 will move with arrow key press
 
 
 
@@ -18,6 +18,10 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
+        # a bit slower keypress (not continuous)
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                pass
     # -------- end event loop
     screen.fill((255,255,255))
     # move with mouse click
