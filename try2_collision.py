@@ -44,6 +44,11 @@ while running:
     # draw and move
 
 
-
     pygame.display.update()
     pygame.time.delay(20)
+
+
+    # check for game over
+
+
+print("Game over!")
