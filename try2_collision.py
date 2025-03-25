@@ -19,7 +19,7 @@ pygame.display.set_caption('Hello World!')
 # define the 'player' object
 
 
-# define a list of bouncy objects
+# define a list of bouncy objects (the 'enemies')
 
 
 
@@ -33,8 +33,7 @@ while running:
     screen.fill((255,255,255))        
     
     # check if mouse click
-    if pygame.mouse.get_pressed()[0]:
-        mx, my = pygame.mouse.get_pos()
+
 
 
 
