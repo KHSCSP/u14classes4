@@ -13,7 +13,9 @@ from bouncy_class import Bouncy
 '''
 
 pygame.init()
-screen = pygame.display.set_mode((800, 600))
+w = 800
+h = 600
+screen = pygame.display.set_mode((w, h))
 pygame.display.set_caption('Hello World!')
 
 # define the 'player' object
