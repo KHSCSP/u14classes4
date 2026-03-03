@@ -17,6 +17,8 @@ w = 800
 h = 600
 screen = pygame.display.set_mode((w, h))
 pygame.display.set_caption('Hello World!')
+clock = pygame.time.Clock()
+FPS = 30
 
 # define the 'player' object
 
@@ -47,7 +49,7 @@ while running:
 
 
     pygame.display.update()
-    pygame.time.delay(20)
+    clock.tick(FPS)
 
 
     # check for game over

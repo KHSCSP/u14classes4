@@ -7,6 +7,9 @@ w=800
 h=600
 screen = pygame.display.set_mode((w, h))
 pygame.display.set_caption('Hello World!')
+clock = pygame.time.Clock()
+FPS = 30
+
 
 # define a few bouncy objects
 # s1 will move where the mouse moves
@@ -44,4 +47,4 @@ while True:
 
 
     pygame.display.update()
-    pygame.time.delay(2)
+    clock.tick(FPS)
