@@ -9,7 +9,6 @@ class Bouncy:
         # note: could use a list of image filenames
  
 
-    
     def draw(self, screen, ticks):
         # TODO change costume
         pygame.draw.circle(screen, self.costumes[self.costume], (self.x, self.y), self.size)
