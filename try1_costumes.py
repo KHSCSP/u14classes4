@@ -30,6 +30,7 @@ FPS = 30
 
 # TODO ticks
 
+running = True
 while running:
     for event in pygame.event.get():
         if event.type == QUIT:
